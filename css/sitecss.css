@@ -1,0 +1,187 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: (JAEHYUN_AHN)
+Dated: 11/22/2019
+********************************************************************/
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/1601775/pexels-photo-1601775.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+head{
+background-color: white;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  /*Mouse_overlsit---BEGIN*/
+  .dropbtn {
+    background-color:black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-style: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-style: bold;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-style: bold;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-style: bold;
+  }
+  
+  .dropdown-content a:hover {
+      background-color:white;
+    color: black;
+}
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+  .dropdown:hover .dropbtn {
+      background-color: white;
+       color:black;}
+  /*Mouse_overlsit---END*/
+
+  /*BODY---BEGIN*/
+  body{
+align-content: center;
+  }
+   /*BODY---END*/
+
+/*Price and Buttons*/
+
+.title_name{
+color : white;
+font-size: 12mm;
+font-style: italic;
+text-shadow: 2px 2px black;
+}
+
+.row1, .row2, .row3 { 
+    display: flex;
+    margin-bottom: 40px;
+    font : bold;
+}
+
+.item { 
+    width: 300px;
+    height: 26rem;
+    margin: 20px;
+    border-radius: 4px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.title{
+    color : white;
+font-size: 5mm;
+font-style: italic;
+text-shadow: 2px 2px black;
+    font-size: 1rem;
+    height: 53px;
+    line-height: 53px;
+    font-weight: 500;
+}
+
+.item_price{ 
+    color :black;
+    font-size: 4mm;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.item_button { 
+    margin-top: 5px;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-style: bold;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color:black; 
+    background-color: transparent;
+    background-image: none;
+    background-color:white;
+    font-weight: 500;
+}
+
+img {
+    cursor: pointer;
+}
+/*Pop up image*/
+
+figure figcaption
+{
+    width: 200px;               
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 0px;
+    display: none;
+    
+}
+figure:hover figcaption
+{ 
+
+    display: block;
+    
+}
+/**/
+
+.contents{
+    color :white;
+    background-color: white;
+      text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+  footer{
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/1010139/pexels-photo-1010139.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-repeat : repeat;
+    background-size : cover;
+    color : white;
+font-size: 5mm;
+font-style: italic;
+text-shadow: 2px 2px black;
+}
+
+.footerimg{
+        clear: left;
+}
